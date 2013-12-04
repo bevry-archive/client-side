@@ -3,7 +3,9 @@
 ## History
 
 - 2006
-	- Got into AJAX, Prototype, jQuery, MooTools
+	- Got into AJAX, Prototype, MooTools
+- 2007
+	- Got into jQuery (created August 26, 2006)
 - 2008
 	- Built jQuery Smarty, first javascript templating engine (even reactive)
 - 2009
