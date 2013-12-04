@@ -1,5 +1,41 @@
 # Bevry's Client Side Approach
 
+## History
+
+- 2006
+	- Got into AJAX, Prototype, jQuery, MooTools
+- 2008
+	- Built jQuery Smarty, first javascript templating engine (even reactive)
+- 2009
+	- Switched to JavaScript full-time
+- 2010
+	- Dev Lead for [Aloha Editor](http://aloha-editor.org/) for a few months
+- 2011
+	- Built [Buildr](https://github.com/balupton/buildr) for Aloha Editor
+	- Built History.js
+	- Built DocPad
+	- Started CoffeeScript
+	- Built TaskGroup
+	- Government projects with Backbone
+- 2012
+	- BugHerd.com with Backbone and QueryEngine
+	- DocPad re-written with Backbone instead of vanilla classes
+- 2013
+	- DocPad full-time
+	- Two failed projects with Backbone
+		- Views are to blame
+	- Looked into alterantives
+		- Discovered Spine, the models sucked
+		- Discovered MicroJS, spent all the time researching incompatible modules
+		- Discovered component, bower - too complex
+	- Came up with a good architecture
+		- DocPad
+		- NPM + Browserify
+		- Backbone Models
+		- QueryEngine Collections
+		- Spine Views + Routing
+			- Now bevry/spine-route and bevry/miniview
+
 ## Available Architectures
 
 - Building
