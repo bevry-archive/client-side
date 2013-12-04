@@ -3,55 +3,99 @@
 ## Typical Architecture
 
 - Building
-	- Make
-	- Grunt
-	- Brunch
-	- DocPad
+	- Task based build tools
+		- [Make](http://en.wikipedia.org/wiki/Make_(software))
+			- Not friendly to web developers
+		- [Ant](http://en.wikipedia.org/wiki/Ant_(software))
+			- Make + XML configuration file
+		- [Grunt](http://gruntjs.com/)
+			- Make in javascript + JSON configuration file
+		- [Brunch](http://brunch.io/)
+			- Grunt in coffeescript
+		- [Cake](http://coffeescript.org/#cake)
+			- Make in coffeescript
+	- Resource based build tools
+		- [DocPad](http://docpad.org)
+			- Next generation web architecture
+
 - PreProcessors
-	- Jade/CoffeeKup/Eco/Markdown
-	- CoffeeScript/LiveScript/ClojureScript
-	- Stylus/SASS/Less
+	- HTML
+		- [jQuery Smarty](http://balupton.github.io/jquery-smarty/demo/), [Jade](http://jade-lang.com/), [Handlebars](http://handlebarsjs.com/)
+			- [Did people forget about no smarty?](https://web.archive.org/web/20101129144816/http://www.nosmarty.net/)
+			- Don't created a new interpreted syntax to stop templating errors
+			- Just use a common better language, run tests, and train your developers
+		- [Eco](https://github.com/sstephenson/eco)
+			- Like erb, and phtml, but with coffeescript
+		- [CoffeeKup](http://coffeekup.org/)
+			- All coffeescript
+	- JavaScript
+		- [CoffeeScript](http://coffeescript.org/)
+			- Expressive
+		- [LiveScript](http://www.typescriptlang.org/)
+			- Safe
+		- [ClojureScript](http://himera.herokuapp.com/synonym.html)
+			- Functional
+	- CSS
+		- [LessCSS](http://lesscss.org/)
+			- JavaScript
+		- [Stylus](http://learnboost.github.io/stylus/)
+			- Like LessCSS + Expressive
+		- [SASS](http://sass-lang.com/)
+			- Ruby
+
 - Packaging
-	- Bower
-	- Component
-	- NPM / Browerserify / Ender
+	- [Bower](http://bower.io/)
+		- Clones out git repositories, either add your built files to the repo, or get bower to build it after clone
+	- [Component](https://github.com/component/component)
+		- Clones out git repositories, add your built files to the repo
+	- [NPM](http://npmjs.org/) / [Browerserify](http://browserify.org/) / [Ender](http://ender.jit.su/)
+		- Publish your built files to the NPM registry, bundle them with browserify or ender
+
 - DOM
-	- jQuery/Zepto
-	- Selector Engines (Sizzle, Qwery, etc)
+	- [jQuery](http://jquery.com/)/[Zepto](http://zeptojs.com/)
+	- [MicroJS Selector Engines](http://microjs.com/#selector) (Sizzle, Qwery, etc)
+
 - Business Logic
-	- Backbone Views + Controllers
-		- Marionette
-		- Chaplin
-		- Etc
-	- Spine Controller
-	- Ember/Angular
-	- MiniView
+	- [Backbone](http://backbonejs.org/) Views + Controllers, [Marionette](http://marionettejs.com/), [Chaplin](http://chaplinjs.org/)
+	- [Spine](http://spinejs.com/) Controller
+	- [Ember](http://emberjs.com/)/[Angular](http://angularjs.org/)
+	- [MiniView](https://github.com/bevry/miniview)
+
 - Data Logic
-	- Backbone Models
-	- Ember/Angular Models
+	- [Backbone](http://backbonejs.org/) Models
+	- [Ember](http://emberjs.com/)/[Angular](http://angularjs.org/) Models
+
 - Templating
-	- Handlebars
+	- Jade/Handlebars/Etc
+		- Write your template in a special markup, only to re-render all of it on a minor change
 	- ECT/Eco
-	- Facebook React
-	- Knockout
-	- Pointers
+		- Write your template in a familiar markup, only to re-render all of it on a minor change
+	- [Facebook React](http://facebook.github.io/react/), [Knockout](http://knockoutjs.com/)
+		- Write your template in a special markup, to pollute the rendered dom, so minor changes are handled fast
 	- Vanilla jQuery
+		- Write your template in normal markup, and write a lot of custom javascript, so minor changes are handled fast
+	- [Pointers](https://github.com/bevry/pointers)
+		- Write your template in normal markup, and write minimal code, so minor changes are handled fast
+
 - Server Side Communication
-	- Backbone Sync
+	- [Backbone Sync](http://backbonejs.org/#Sync)
 	- Angular/Ember Data
 	- Web Sockets
 	- jQuery AJAX
+
 - Routing / State Management
-	- PJAX
-	- History.js
+	- [PJAX](https://github.com/defunkt/jquery-pjax)
+	- [History.js](https://github.com/browserstate/history.js)
 	- Backbone/Spine/MVC Router
-	- Crossroads (Microjs)
+	- [MicroJS Routers](http://microjs.com/#route) (Crossroads)
 
 
 ## Bevry's Architecture
 
+[WebWrite InlineGUI](https://github.com/webwrite/inlinegui)
+
 - Building
-	- DocPad + LiveReload
+	- [Bevry's Base Cake](https://github.com/bevry/base/blob/master/Cakefile) + [DocPad's HTML5 Boilerplate Skeleton](https://github.com/docpad/html5-boilerplate.docpad) + [DocPad LiveReload Plugin](http://docpad.org/p/livereload)
 
 	``` bash
 	npm install -g docpad
