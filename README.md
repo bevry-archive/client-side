@@ -1,7 +1,3 @@
-# client-side
-
-Bevry's approach to the client-side
-
 # Bevry's Client Side Approach
 
 ## Typical Architecture
