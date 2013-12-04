@@ -4,9 +4,9 @@
 
 - Building
 	- Task based build tools
-		- [Make](http://en.wikipedia.org/wiki/Make_(software))
+		- [Make](http://en.wikipedia.org/wiki/Make_(software)
 			- Not friendly to web developers
-		- [Ant](http://en.wikipedia.org/wiki/Ant_(software))
+		- [Ant](http://en.wikipedia.org/wiki/Ant_(software)
 			- Make + XML configuration file
 		- [Grunt](http://gruntjs.com/)
 			- Make in javascript + JSON configuration file
