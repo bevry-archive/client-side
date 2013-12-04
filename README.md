@@ -1,6 +1,6 @@
 # Bevry's Client Side Approach
 
-## Typical Architecture
+## Available Architectures
 
 - Building
 	- Task based build tools
