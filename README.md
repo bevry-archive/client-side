@@ -100,7 +100,7 @@
 	```
 
 - Data Logic
-	- Lodash Backbone + QueryEngine
+	- Backbone's Model + QueryEngine's QueryCollection
 	
 	``` bash
 	npm install --save query-engine
@@ -110,7 +110,7 @@
 	``` coffeescript
 	class Model extends require('backbone').Model
 
-	class Collection ends require('query-engine').QueryCollection
+	class Collection extends require('query-engine').QueryCollection
 	```
 
 - Templating
@@ -125,7 +125,7 @@
 	- jQuery AJAX then to Primus
 
 	``` bash
-	open "https://github.com/webwrite/inlinegui/blob/4676a090365ef15c5479e3b92e1e2250255a9176/src/documents/scripts/models/file.js.coffee#L36-L59"
+	open "https://github.com/webwrite/inlinegui/blob/4676a090365ef15c5479e3b92e1e2250255a9176/src/documents/scripts/views/app.js.coffee#L353-L393"
 	```
 
 - Routing
