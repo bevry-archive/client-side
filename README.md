@@ -1,5 +1,30 @@
 # Bevry's Client Side Approach
 
+December 4th, 2013 @ Co-Up Berlin
+Hosted by Hacker Retreat
+Sponsored by Zanox
+
+
+## Slides + Notes:
+https://github.com/bevry/client-side
+
+
+## Agenda
+
+1. Introduction, why we are here
+	1. Helping Bill Murray
+	2. Hacker Retreat
+	3. Good idea to do a talk about this, to help others too, not just Bill Murray
+2. Where did my knowledge come from
+	1. Many years doing javascript
+	2. 15th most active user on GitHub
+3. Why is this stuff important?
+	1. Overwhelmingly fragemented
+4. What is our approach on it?
+	1. Simplify, unite, make stuff
+5. Let's take a look
+
+
 ## History
 
 - 2006
