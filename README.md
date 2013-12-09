@@ -133,7 +133,7 @@ https://github.com/bevry/client-side
 		- Write your template in a special markup, only to re-render all of it on a minor change
 	- ECT/Eco
 		- Write your template in a familiar markup, only to re-render all of it on a minor change
-	- [Facebook React](http://facebook.github.io/react/), [Knockout](http://knockoutjs.com/)
+	- [Facebook React](http://facebook.github.io/react/), [Knockout](http://knockoutjs.com/), [Enddash](http://www.enddash.com/)
 		- Write your template in a special markup, to pollute the rendered dom, so minor changes are handled fast
 	- Vanilla jQuery
 		- Write your template in normal markup, and write a lot of custom javascript, so minor changes are handled fast
